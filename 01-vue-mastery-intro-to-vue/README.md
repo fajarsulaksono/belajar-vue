@@ -11,3 +11,16 @@ Our first step is to include Vue in our project, which we’ll do by adding this
 ```
 <script src="https://unpkg.com/vue"></script>
 ```
+
+Next in our `main.js` we’ll write the following:
+
+```
+//var product="Socks";
+
+var app = new Vue({
+    el: '#app',
+    data: {
+        product: "Socks"
+    }
+});
+```
