@@ -8,5 +8,6 @@ We need a way to take the variable `product` from our JavaScript and have it sho
 
 Our first step is to include Vue in our project, which we’ll do by adding this line in our `.html` file, just above the `main.js` script.
 
-    <script src="https://unpkg.com/vue"></script>
-
+```
+<script src="https://unpkg.com/vue"></script>
+```
