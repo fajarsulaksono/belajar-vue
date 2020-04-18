@@ -92,10 +92,10 @@ However, in the product app we're building, using `v-if` and `v-else` works just
 
 ### What we have learned
 - There  are Vue directives to conditionally render elements:
-* `v-if`
-* `v-else-if`
-* `v-else`
-* `v-show`
+    * `v-if`
+    * `v-else-if`
+    * `v-else`
+    * `v-show`
 - If whatever is inside the directive's quotes is truthy, the element will display.
 - You can use expressions inside the directive's quotes.
 - `v-show` only toggles visibility, it does not insert or remove the element from the DOM.
