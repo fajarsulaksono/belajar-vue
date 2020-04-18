@@ -10,7 +10,16 @@
     </div>
     <div id="app">
         <div class="product">
-            <h1>{{ product }}</h1>
+            
+            <div class="product-image">
+                <img v-bind:src="image" v-bind:alt="altText">
+            </div>
+
+            <div class="product-info">
+                <h1>{{ product }}</h1>
+                <p><a v-bind:href="linkToGoogle" >Link to Google</a></p>
+            </div>
+
         </div>
     </div>
 <script src="https://cdn.jsdelivr.net/npm/vue"></script>

@@ -1,6 +1,7 @@
-## Vue Mastery - Attribute Binding
+## Vue Mastery - Introduction to Vue
 
 ### Attribute Binding
+
 In this lesson, we'll explore ways you can connect data to the attributes of your HTML elements.
 
 ### Our Goal
@@ -95,7 +96,7 @@ This is a very commonly used feature in Vue. Because it's so common, there's a s
 
 Simple, clean, and handy.
 
-### What have we learned
+### What we have learned
 - Data can be bound to HTML attributes.
 - Syntax is `v-bind` or `:` for short.
 - The attribute name that comes after the `:` specifies the attribute we're binding data to.

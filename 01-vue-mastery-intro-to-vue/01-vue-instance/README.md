@@ -90,7 +90,7 @@ The reason Vue is able to display `product`'s value immediately is because Vue i
 
 To prove that, let's open the console and change the value of our product string (`app.product = ...`). Look what happens.
 
-What have we learned?
+What we have learned?
 - How to begin writing a Vue application with a Vue instance, and how to load basic data onto the webpage
 - The Vue instance is the root of every Vue application
 - The Vue instance plugs into an element in the DOM
