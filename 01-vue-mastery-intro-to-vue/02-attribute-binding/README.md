@@ -1,4 +1,4 @@
-## Vue Mastery - Introduction to Vue
+## Vue Mastery - Attribute Binding
 
 ### Attribute Binding
 In this lesson, we'll explore ways you can connect data to the attributes of your HTML elements.
@@ -80,7 +80,7 @@ altText: "A pair of socks"
 We can bind that to the `alt` attribute like so:
 
 ```
-<img vi-bind:src="image" v-bind:alt="altText" />
+<img v-bind:src="image" v-bind:alt="altText" />
 ```
 
 In both of these cases, we've used the syntax `v-bind` and after the colon `:`, we've stated which attribute we're binding the data to, `src` and `alt` in this case.
