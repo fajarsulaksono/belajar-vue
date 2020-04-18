@@ -1,6 +1,4 @@
-## Vue Mastery - Introduction to Vue
-
-### Conditional Rendering
+## Introduction to Vue - Conditional Rendering
 In this lesson we'll be uncovering how to conditionally display elements with Vue.
 
 ### Our Goal

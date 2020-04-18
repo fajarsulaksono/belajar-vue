@@ -1,7 +1,4 @@
-## Vue Mastery - Introduction to Vue
-
-### Attribute Binding
-
+## Introduction to Vue - Attribute Binding
 In this lesson, we'll explore ways you can connect data to the attributes of your HTML elements.
 
 ### Our Goal
