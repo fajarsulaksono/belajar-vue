@@ -3,8 +3,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Handling</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <div class="nav-bar">
+    </div>
+    <div id="app">
+        <div class="product">
+            
+            <div class="product-image">
+                <img v-bind:src="image">
+            </div>
+
+            <div class="product-info">
+                <h1>{{ product }}</h1>
+                <p v-if="inStock">In Stock</p>
+                <p v-else>Out of Stock</p>
+                <p>
+                    <ul>
+                        <li v-for="detail in details">{{ detail }}</li>
+                    </ul>
+                    <ul>
+                        <li v-for="size in sizes">{{ size }}</li>
+                    </ul>
+                </p>
+                <div v-for="variant in variants" :key="variant.variantId">
+                    <p @mouseover="updateProduct(variant.variantImage)">
+                        {{ variant.variantColor }}
+                    </p>
+                </div>
+            
+                <!-- <button v-on:click="cart += 1" >Add to cart</button> -->
+                <button v-on:click="addToCart">Add to Cart</button>
+                <button v-on:click="decrementCart">Decrement Cart</button>
+                <div class="cart">
+                    <p>Cart({{ cart }})</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!-- development version, includes helpful console warnings -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="js/05-main.js"></script>
 </body>
 </html>
