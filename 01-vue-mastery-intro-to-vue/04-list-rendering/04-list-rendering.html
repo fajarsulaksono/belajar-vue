@@ -23,6 +23,9 @@
                     <ul>
                         <li v-for="detail in details">{{ detail }}</li>
                     </ul>
+                    <ul>
+                        <li v-for="size in sizes">{{ size }}</li>
+                    </ul>
                 </p>
                 <div v-for="variant in variants" :key="variant.variantId">
                     <p>{{ variant.variantColor }}</p>
@@ -31,7 +34,8 @@
 
         </div>
     </div>
-<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<!-- development version, includes helpful console warnings -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="js/04-main.js"></script>
 </body>
 </html>

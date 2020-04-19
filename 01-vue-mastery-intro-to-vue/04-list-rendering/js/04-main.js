@@ -1,4 +1,4 @@
-Vue.config.devtools = true;
+//Vue.config.devtools = true;
 var app = new Vue({
     el: '#app',
     data: {
@@ -15,6 +15,7 @@ var app = new Vue({
                 variantId: 2235,
                 variantColor: "blue"
             }
-        ]
+        ],
+        sizes: ['S', 'M', 'L', 'XL', 'XXL']
     }
 })
